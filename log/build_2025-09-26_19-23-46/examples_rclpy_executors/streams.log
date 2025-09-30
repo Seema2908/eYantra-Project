@@ -1,0 +1,24 @@
+[2.388s] Invoking command in '/home/seema/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seema/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data --force
+[2.589s] running develop
+[2.719s] running egg_info
+[2.719s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[2.719s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[2.720s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[2.720s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[2.720s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[2.722s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.722s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.784s] running build_ext
+[2.785s] Creating /home/seema/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[2.786s] Installing callback_group script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.786s] Installing composed script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.786s] Installing custom_callback_group script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.786s] Installing custom_executor script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.786s] Installing listener script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.787s] Installing talker script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.787s] 
+[2.787s] Installed /home/seema/ros2_ws/build/examples_rclpy_executors
+[2.787s] running symlink_data
+[2.787s] symbolically linking /home/seema/ros2_ws/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /home/seema/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.787s] symbolically linking /home/seema/ros2_ws/build/examples_rclpy_executors/package.xml -> /home/seema/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[3.851s] Invoked command in '/home/seema/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seema/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data --force

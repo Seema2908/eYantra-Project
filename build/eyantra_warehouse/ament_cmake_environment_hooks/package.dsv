@@ -1,0 +1,4 @@
+source;share/eyantra_warehouse/local_setup.bash
+source;share/eyantra_warehouse/local_setup.dsv
+source;share/eyantra_warehouse/local_setup.sh
+source;share/eyantra_warehouse/local_setup.zsh

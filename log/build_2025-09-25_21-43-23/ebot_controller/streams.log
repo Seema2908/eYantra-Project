@@ -1,0 +1,21 @@
+[5.177s] Invoking command in '/home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ebot_controller': PYTHONPATH=/home/seema/ros2_ws/build/ebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ebot_controller build --build-base /home/seema/ros2_ws/build/ebot_controller/build install --record /home/seema/ros2_ws/build/ebot_controller/install.log --single-version-externally-managed install_data
+[5.577s] running egg_info
+[5.577s] writing ../../../build/ebot_controller/ebot_controller.egg-info/PKG-INFO
+[5.578s] writing dependency_links to ../../../build/ebot_controller/ebot_controller.egg-info/dependency_links.txt
+[5.578s] writing entry points to ../../../build/ebot_controller/ebot_controller.egg-info/entry_points.txt
+[5.578s] writing requirements to ../../../build/ebot_controller/ebot_controller.egg-info/requires.txt
+[5.578s] writing top-level names to ../../../build/ebot_controller/ebot_controller.egg-info/top_level.txt
+[5.578s] reading manifest file '../../../build/ebot_controller/ebot_controller.egg-info/SOURCES.txt'
+[5.578s] writing manifest file '../../../build/ebot_controller/ebot_controller.egg-info/SOURCES.txt'
+[5.578s] running build
+[5.579s] running build_py
+[5.579s] running install
+[5.579s] running install_lib
+[5.579s] running install_data
+[5.579s] running install_egg_info
+[5.579s] removing '/home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages/ebot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[5.579s] Copying ../../../build/ebot_controller/ebot_controller.egg-info to /home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages/ebot_controller-0.0.0-py3.10.egg-info
+[5.579s] running install_scripts
+[5.579s] Installing ebot_nav script to /home/seema/ros2_ws/install/ebot_controller/lib/ebot_controller
+[5.579s] writing list of installed files to '/home/seema/ros2_ws/build/ebot_controller/install.log'
+[5.656s] Invoked command in '/home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ebot_controller' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/ebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ebot_controller build --build-base /home/seema/ros2_ws/build/ebot_controller/build install --record /home/seema/ros2_ws/build/ebot_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,163 @@
+[0.694s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/home/seema/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seema/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[4.016s] UpdateCTestConfiguration  from :/home/seema/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[4.016s] Parse Config file:/home/seema/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[4.016s]    Site: vivobook
+[4.016s]    Build name: (empty)
+[4.016s]  Add coverage exclude regular expressions.
+[4.016s] Create new tag: 20250924-1413 - Experimental
+[4.016s] UpdateCTestConfiguration  from :/home/seema/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[4.016s] Parse Config file:/home/seema/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[4.016s] Test project /home/seema/ros2_ws/build/examples_rclcpp_wait_set
+[4.016s] Constructing a list of tests
+[4.016s] Done constructing a list of tests
+[4.016s] Updating test list for fixtures
+[4.016s] Added 0 tests to meet fixture requirements
+[4.016s] Checking test dependency graph...
+[4.016s] Checking test dependency graph end
+[4.016s] test 1
+[4.016s]     Start 1: copyright
+[4.016s] 
+[4.016s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[4.016s] 1: Test timeout computed to be: 200
+[4.016s] 1: -- run_test.py: invoking following command in '/home/seema/ros2_ws/src/examples/rclcpp/wait_set':
+[4.016s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+[4.016s] 1: No problems found, checked 15 files
+[4.016s] 1: -- run_test.py: return code 0
+[4.016s] 1: -- run_test.py: verify result file '/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+[4.016s] 1/6 Test #1: copyright ........................   Passed    1.99 sec
+[4.016s] test 2
+[4.017s]     Start 2: cppcheck
+[4.017s] 
+[4.017s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/seema/ros2_ws/src/examples/rclcpp/wait_set/include"
+[4.017s] 2: Test timeout computed to be: 300
+[4.017s] 2: -- run_test.py: invoking following command in '/home/seema/ros2_ws/src/examples/rclcpp/wait_set':
+[4.017s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/seema/ros2_ws/src/examples/rclcpp/wait_set/include
+[4.017s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[4.017s] 2: -- run_test.py: return code 0
+[4.017s] 2: -- run_test.py: verify result file '/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+[4.017s] 2/6 Test #2: cppcheck .........................   Passed    0.35 sec
+[4.017s] test 3
+[4.017s]     Start 3: cpplint
+[4.017s] 
+[4.017s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[4.017s] 3: Test timeout computed to be: 120
+[4.017s] 3: -- run_test.py: invoking following command in '/home/seema/ros2_ws/src/examples/rclcpp/wait_set':
+[4.017s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+[4.017s] 3: Using '--root=/home/seema/ros2_ws/src/examples/rclcpp/wait_set/include' argument
+[4.017s] 3: 
+[4.017s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+[4.017s] 3: 
+[4.017s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+[4.017s] 3: 
+[4.017s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+[4.017s] 3: 
+[4.017s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+[4.017s] 3: 
+[4.017s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+[4.017s] 3: 
+[4.017s] 3: Using '--root=/home/seema/ros2_ws/src/examples/rclcpp/wait_set/src' argument
+[4.017s] 3: 
+[4.017s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+[4.017s] 3: 
+[4.017s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/listener.cpp
+[4.017s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+[4.018s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/talker.cpp
+[4.018s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+[4.018s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set.cpp
+[4.018s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+[4.018s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+[4.018s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+[4.018s] 3: 
+[4.018s] 3: Done processing /home/seema/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+[4.018s] 3: 
+[4.018s] 3: No problems found
+[4.018s] 3: -- run_test.py: return code 0
+[4.018s] 3: -- run_test.py: verify result file '/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+[4.018s] 3/6 Test #3: cpplint ..........................   Passed    0.35 sec
+[4.018s] test 4
+[4.018s]     Start 4: lint_cmake
+[4.018s] 
+[4.018s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[4.019s] 4: Test timeout computed to be: 60
+[4.019s] 4: -- run_test.py: invoking following command in '/home/seema/ros2_ws/src/examples/rclcpp/wait_set':
+[4.019s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+[4.019s] 4: 
+[4.019s] 4: No problems found
+[4.019s] 4: -- run_test.py: return code 0
+[4.019s] 4: -- run_test.py: verify result file '/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+[4.019s] 4/6 Test #4: lint_cmake .......................   Passed    0.14 sec
+[4.019s] test 5
+[4.019s]     Start 5: uncrustify
+[4.019s] 
+[4.019s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[4.019s] 5: Test timeout computed to be: 60
+[4.020s] 5: -- run_test.py: invoking following command in '/home/seema/ros2_ws/src/examples/rclcpp/wait_set':
+[4.020s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+[4.020s] 5: No code style divergence in file 'include/wait_set/listener.hpp'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'include/wait_set/talker.hpp'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'include/wait_set/visibility.h'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'src/executor_random_order.cpp'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'src/listener.cpp'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'src/static_wait_set.cpp'
+[4.020s] 5: 
+[4.020s] 5: No code style divergence in file 'src/talker.cpp'
+[4.020s] 5: 
+[4.021s] 5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+[4.021s] 5: 
+[4.021s] 5: No code style divergence in file 'src/wait_set.cpp'
+[4.021s] 5: 
+[4.021s] 5: No code style divergence in file 'src/wait_set_composed.cpp'
+[4.021s] 5: 
+[4.021s] 5: No code style divergence in file 'src/wait_set_random_order.cpp'
+[4.021s] 5: 
+[4.021s] 5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+[4.021s] 5: 
+[4.021s] 5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+[4.021s] 5: 
+[4.021s] 5: No problems found
+[4.021s] 5: -- run_test.py: return code 0
+[4.021s] 5: -- run_test.py: verify result file '/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+[4.021s] 5/6 Test #5: uncrustify .......................   Passed    0.13 sec
+[4.021s] test 6
+[4.021s]     Start 6: xmllint
+[4.021s] 
+[4.021s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[4.021s] 6: Test timeout computed to be: 60
+[4.021s] 6: -- run_test.py: invoking following command in '/home/seema/ros2_ws/src/examples/rclcpp/wait_set':
+[4.021s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+[4.287s] 6: File 'package.xml' is valid
+[4.287s] 6: 
+[4.287s] 6: No problems found
+[4.294s] 6: -- run_test.py: return code 0
+[4.294s] 6: -- run_test.py: verify result file '/home/seema/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+[4.301s] 6/6 Test #6: xmllint ..........................   Passed    0.62 sec
+[4.301s] 
+[4.301s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[4.301s] 
+[4.301s] Label Time Summary:
+[4.301s] copyright     =   1.99 sec*proc (1 test)
+[4.301s] cppcheck      =   0.35 sec*proc (1 test)
+[4.301s] cpplint       =   0.35 sec*proc (1 test)
+[4.301s] lint_cmake    =   0.14 sec*proc (1 test)
+[4.301s] linter        =   3.58 sec*proc (6 tests)
+[4.301s] uncrustify    =   0.13 sec*proc (1 test)
+[4.301s] xmllint       =   0.62 sec*proc (1 test)
+[4.301s] 
+[4.301s] Total Test time (real) =   3.59 sec
+[4.307s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set' returned '0': AMENT_PREFIX_PATH=/home/seema/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seema/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

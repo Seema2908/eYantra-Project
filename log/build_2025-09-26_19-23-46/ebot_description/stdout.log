@@ -1,0 +1,71 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/seema/ros2_ws/build/ebot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//launch/spawn_ebot.launch.py
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//worlds/empty.world
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//models/ebot/ebot.gazebo
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//models/ebot/ebot_description.xacro
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS1.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS2.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS3.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS4.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FWL.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FWR.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/LHUS10.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/LHUS9.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RHUS7.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RHUS9.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RUS5.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RUS6.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RWL.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RWR.STL
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/aruco_tag.jpg.001.jpg
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/chassis.dae
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/chassis_modified.dae
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/robot_base.stl
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//plugins/libgazebo_collision_sensor.so
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//plugins/libgazebo_ros_vacuum_gripper.so
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//config/bridge.yaml
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//config/controller.yaml
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/__init__.py
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/pyarmor_runtime.so
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/__init__.py
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/pyarmor_runtime.so
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/payload.py
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/spawner.py
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ament_index/resource_index/package_run_dependencies/ebot_description
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ament_index/resource_index/parent_prefix_path/ebot_description
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/path.sh
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/path.dsv
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.bash
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.sh
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.zsh
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.dsv
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/package.dsv
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ament_index/resource_index/packages/ebot_description
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig.cmake
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig-version.cmake
+-- Symlinking: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/package.xml

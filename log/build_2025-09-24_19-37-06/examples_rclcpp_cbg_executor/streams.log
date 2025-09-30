@@ -1,0 +1,67 @@
+[0.006s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/examples_rclcpp_cbg_executor
+[0.013s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.087s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.092s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.107s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.109s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.112s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.142s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.143s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.233s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.275s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.276s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.276s] -- Configured cppcheck include dirs: /home/seema/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[0.276s] -- Configured cppcheck exclude dirs and/or files: 
+[0.277s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.277s] -- Configured cpplint exclude dirs and/or files: 
+[0.277s] -- Added test 'lint_cmake' to check CMake code style
+[0.278s] -- Added test 'uncrustify' to check C / C++ code style
+[0.278s] -- Configured uncrustify additional arguments: 
+[0.278s] -- Added test 'xmllint' to check XML markup files
+[0.279s] -- Configuring done
+[0.289s] -- Generating done
+[0.292s] -- Build files have been written to: /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.297s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/examples_rclcpp_cbg_executor
+[0.298s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[0.341s] [ 10%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[0.341s] [ 30%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[0.342s] [ 30%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.342s] [ 40%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[0.343s] [ 50%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[0.344s] [ 60%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.344s] [ 70%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[6.830s] [ 80%] [32m[1mLinking CXX executable pong[0m
+[6.844s] [ 90%] [32m[1mLinking CXX executable ping[0m
+[7.111s] [ 90%] Built target pong
+[7.130s] [ 90%] Built target ping
+[7.318s] [100%] [32m[1mLinking CXX executable ping_pong[0m
+[7.643s] [100%] Built target ping_pong
+[7.650s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[7.651s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor
+[7.656s] -- Install configuration: ""
+[7.656s] -- Execute custom install script
+[7.656s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[7.663s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[7.669s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[7.677s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[7.684s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[7.691s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[7.698s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[7.702s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[7.710s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[7.717s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[7.723s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[7.729s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[7.734s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[7.739s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[7.745s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[7.750s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[7.758s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[7.764s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.769s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[7.774s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[7.781s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[7.791s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor

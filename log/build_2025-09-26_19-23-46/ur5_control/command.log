@@ -1,0 +1,6 @@
+Invoking command in '/home/seema/ros2_ws/build/ur5_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ur5_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/ur5_control
+Invoked command in '/home/seema/ros2_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ur5_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/ur5_control
+Invoking command in '/home/seema/ros2_ws/build/ur5_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/ur5_control -- -j16 -l16
+Invoked command in '/home/seema/ros2_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/ur5_control -- -j16 -l16
+Invoking command in '/home/seema/ros2_ws/build/ur5_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/ur5_control
+Invoked command in '/home/seema/ros2_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/ur5_control

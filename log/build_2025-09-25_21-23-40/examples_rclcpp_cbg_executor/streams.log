@@ -1,0 +1,30 @@
+[0.171s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[0.474s] [ 40%] Built target ping_pong
+[0.474s] [ 70%] Built target ping
+[0.474s] [100%] Built target pong
+[0.497s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor -- -j16 -l16
+[0.498s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.562s] -- Install configuration: ""
+[0.562s] -- Execute custom install script
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[0.562s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[0.563s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[0.563s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[0.563s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.563s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[0.563s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[0.563s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[0.626s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_cbg_executor

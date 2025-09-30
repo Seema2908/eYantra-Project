@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- 
+*****************************************************************************************
+*
+*        =============================================
+*           Krishi Bot (KB) Theme (eYRC 2022-23)
+*        =============================================
+*
+*
+*  Filename:			model.sdf
+*  Created:				04/09/2022
+*  Last Modified:	04/09/2022
+*  Modified by:   Amit
+*  Author:				e-Yantra Team
+*  
+***************************************************************************************** 
+-->
+<sdf version="1.6">
+  <model name="trough">
+    <static>true</static>
+    <link name="trough_link">
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://trough/meshes/trough.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1.37 0.422 0.42</size>
+          </box>
+        </geometry>
+        <pose>0 0 0.21 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>

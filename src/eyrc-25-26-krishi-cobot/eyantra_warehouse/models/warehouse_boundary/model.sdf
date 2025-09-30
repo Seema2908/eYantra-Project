@@ -1,0 +1,654 @@
+<?xml version='1.0'?>
+<sdf version='1.8'>
+  <model name='warehouse_boundary'>
+    <link name='link_100'>
+      <pose>-1.1 -2.28 0.21 0 -0 0</pose>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <!-- <collision>
+        <geometry>
+          <mesh>
+            <uri>model://warehouse_boundary/meshes/warehouse_boundary.dae</uri>
+          </mesh>
+        </geometry>
+      </collision> -->
+      <visual name='visual1'>
+        <cast_shadows>0</cast_shadows>
+        <geometry>
+          <mesh>
+            <!-- <uri>model://warehouse_boundary/meshes/warehouse_boundary.dae</uri> -->
+            <uri>model://warehouse_boundary/meshes/warehouse_boundary_modified.dae</uri>
+          </mesh>
+        </geometry>
+
+        <pose>0 0 0 0 -0 0</pose>
+        <transparency>0</transparency>
+      </visual>
+
+      <!-- <collision name='colision1'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>8 15 0.05</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+            <torsional>
+              <coefficient>1</coefficient>
+              <patch_radius>0</patch_radius>
+              <surface_radius>0</surface_radius>
+              <use_patch_radius>1</use_patch_radius>
+              <ode>
+                <slip>0</slip>
+              </ode>
+            </torsional>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>1e+06</threshold>
+          </bounce>
+          <contact>
+            <collide_without_contact>0</collide_without_contact>
+            <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+            <collide_bitmask>1</collide_bitmask>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0</min_depth>
+            </ode>
+            <bullet>
+              <split_impulse>1</split_impulse>
+              <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e13</kp>
+              <kd>1</kd>
+            </bullet>
+          </contact>
+        </surface>
+      </collision> -->
+
+    </link>
+
+    <link name='link_11'>
+      <inertial>
+        <mass>0.716842</mass>
+        <inertia>
+          <ixx>13.5358</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.769799</iyy>
+          <iyz>0</iyz>
+          <izz>12.7708</izz>
+        </inertia>
+        <pose>0 0 0 0 -0 0</pose>
+      </inertial>
+      <pose>-5.0697 -2.19738 1.45505 0 -0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <enable_wind>0</enable_wind>
+
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 14.62 2.60608</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+            <torsional>
+              <coefficient>1</coefficient>
+              <patch_radius>0</patch_radius>
+              <surface_radius>0</surface_radius>
+              <use_patch_radius>1</use_patch_radius>
+              <ode>
+                <slip>0</slip>
+              </ode>
+            </torsional>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>1e+06</threshold>
+          </bounce>
+          <contact>
+            <collide_without_contact>0</collide_without_contact>
+            <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+            <collide_bitmask>1</collide_bitmask>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0</min_depth>
+            </ode>
+            <bullet>
+              <split_impulse>1</split_impulse>
+              <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+            </bullet>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <link name='link_110'>
+      <pose>-1.1 -2.28 0.21 0 -0 0</pose>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <gravity>1</gravity>
+      <inertial>
+        <mass>1</mass>
+        <pose>0 0 0 0 -0 0</pose>
+        <inertia>
+          <ixx>1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1</iyy>
+          <iyz>0</iyz>
+          <izz>1</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual2'>
+        <cast_shadows>0</cast_shadows>
+        <geometry>
+          <mesh>
+            <!-- <uri>model://warehouse_boundary/meshes/warehouse_boundary_glass_cover.dae</uri> -->
+            <uri>model://warehouse_boundary/meshes/warehouse_boundary_glass_cover_modified.dae</uri>
+          </mesh>
+        </geometry>
+
+        <material>
+          <ambient>0.5 0.5 0.5 0.7</ambient>    <!-- Medium grey, half transparent -->
+          <diffuse>0.5 0.5 0.5 0.7</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <transparency>0.0</transparency>
+
+        <pose>0 0 0 0 -0 0</pose>
+      </visual>
+    </link>
+    <link name='link_11_clone'>
+      <inertial>
+        <mass>0.521217</mass>
+        <inertia>
+          <ixx>9.57893</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.296731</iyy>
+          <iyz>0</iyz>
+          <izz>9.28568</izz>
+        </inertia>
+        <pose>0 0 0 0 -0 0</pose>
+      </inertial>
+      <pose>2.83438 -2.29092 1.45505 0 -0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <enable_wind>0</enable_wind>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 14.9 2.60608</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+            <torsional>
+              <coefficient>1</coefficient>
+              <patch_radius>0</patch_radius>
+              <surface_radius>0</surface_radius>
+              <use_patch_radius>1</use_patch_radius>
+              <ode>
+                <slip>0</slip>
+              </ode>
+            </torsional>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>1e+06</threshold>
+          </bounce>
+          <contact>
+            <collide_without_contact>0</collide_without_contact>
+            <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+            <collide_bitmask>1</collide_bitmask>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0</min_depth>
+            </ode>
+            <bullet>
+              <split_impulse>1</split_impulse>
+              <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+            </bullet>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <link name='link_13'>
+      <inertial>
+        <mass>11.351</mass>
+        <inertia>
+          <ixx>23.4281</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>85.5189</iyy>
+          <iyz>0</iyz>
+          <izz>62.2411</izz>
+        </inertia>
+        <pose>0 0 0 0 -0 0</pose>
+      </inertial>
+      <pose>-1.11691 5.25442 2.56675 0 -0 0</pose>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <gravity>1</gravity>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>8.10683 0.281791 4.96873</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+            <torsional>
+              <coefficient>1</coefficient>
+              <patch_radius>0</patch_radius>
+              <surface_radius>0</surface_radius>
+              <use_patch_radius>1</use_patch_radius>
+              <ode>
+                <slip>0</slip>
+              </ode>
+            </torsional>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>1e+06</threshold>
+          </bounce>
+          <contact>
+            <collide_without_contact>0</collide_without_contact>
+            <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+            <collide_bitmask>1</collide_bitmask>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0</min_depth>
+            </ode>
+            <bullet>
+              <split_impulse>1</split_impulse>
+              <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+            </bullet>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <link name='link_4'>
+      <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.166667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.166667</iyy>
+          <iyz>0</iyz>
+          <izz>0.166667</izz>
+        </inertia>
+        <pose>0 0 0 0 -0 0</pose>
+      </inertial>
+      <pose>-1.05691 -9.78 1.45505 0 -0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <enable_wind>0</enable_wind>
+      <collision name='collision_1'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>7.9 0.2 2.60608</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+            <torsional>
+              <coefficient>1</coefficient>
+              <patch_radius>0</patch_radius>
+              <surface_radius>0</surface_radius>
+              <use_patch_radius>1</use_patch_radius>
+              <ode>
+                <slip>0</slip>
+              </ode>
+            </torsional>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>1e+06</threshold>
+          </bounce>
+          <contact>
+            <collide_without_contact>0</collide_without_contact>
+            <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+            <collide_bitmask>1</collide_bitmask>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0</min_depth>
+            </ode>
+            <bullet>
+              <split_impulse>1</split_impulse>
+              <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+            </bullet>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+    <!-- <model name='plants'> -->
+      <!-- left side plants -->
+
+      <!-- <include>
+        <uri>model://trough</uri>
+        <name>trough1</name>
+        <pose>-2.3952 -4.0852 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://trough</uri>
+        <name>trough2</name>
+        <pose>-2.3952 -2.7458 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://trough</uri>
+        <name>trough3</name>
+        <pose>-2.3953 -1.3886 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://trough</uri>
+        <name>trough4</name>
+        <pose>-2.3954 -0.041 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include> -->
+
+      <!-- -->
+
+      <!-- right side plants -->
+
+      <!-- <include>
+        <uri>model://trough</uri>
+        <name>trough5</name>
+        <pose>-0.52164 -4.0852 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://trough</uri>
+        <name>trough6</name>
+        <pose>-0.521623 -2.7458 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://trough</uri>
+        <name>trough7</name>
+        <pose>-0.521622 -1.3886 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://trough</uri>
+        <name>trough8</name>
+        <pose>-0.5216 -0.041 0 0 0 -1.57</pose>
+        <static>true</static>
+      </include> -->
+
+      <!-- -->
+
+      <!-- Extra Plants inside Warehouse-->
+
+      <!-- <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_0_1</name>
+        <pose>0.5305 -6.969 0.0 0.0 0.0 3.14</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_0_2</name>
+        <pose> 0.3097 -4.5628 0.0 0.0 0.0 3.14</pose>
+        <static>true</static>
+      </include>
+
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_1_1</name>
+        <pose>-3.0499 -6.969 0.0 0.0 0.0 3.14</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_1_2</name>
+        <pose>-3.8147 -6.969 0.0 0.0 0.0 3.14</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_1</name>
+        <pose>-4.3967 -6.8001 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_2</name>
+        <pose>-4.3967 -6.0353 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_3</name>
+        <pose>-4.3967 -5.2705 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_4</name>
+        <pose>-4.3967 -4.5057 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_5</name>
+        <pose>-4.3967 -3.7409 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_6</name>
+        <pose>-4.3967 -2.9761 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_7</name>
+        <pose>-4.3967 -2.2113 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_8</name>
+        <pose>-4.3967 -1.4465 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_9</name>
+        <pose>-4.3967 -0.6817 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_10</name>
+        <pose>-4.3967 0.0831 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_11</name>
+        <pose>-4.3967 0.8479 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_2_12</name>
+        <pose>-4.3967 1.6127 0.0 0.0 0.0 -1.57</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_3_1</name>
+        <pose>-4.2294 2.2214 0.0 0.0 0.0 0.0</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_3_2</name>
+        <pose>-3.4646 2.2214 0.0 0.0 0.0 0.0</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_3_3</name>
+        <pose>-2.6998 2.2214 0.0 0.0 0.0 0.0</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_3_4</name>
+        <pose>-1.935 2.2214 0.0 0.0 0.0 0.0</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_3_5</name>
+        <pose>-1.1702 2.2214 0.0 0.0 0.0 0.0</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_3_6</name>
+        <pose>-0.4054 2.2214 0.0 0.0 0.0 0.0</pose>
+        <static>true</static>
+      </include>
+
+      <include>
+        <uri>model://plant_red_yellow_bell_peppers_trough</uri>
+        <name>plant_red_yellow_bell_peppers_trough_3_7</name>
+        <pose>0.3594 2.2214 0.0 0.0 0.0 0.0</pose>
+        <static>true</static>
+      </include>
+    </model> -->
+  </model>
+</sdf>

@@ -1,0 +1,62 @@
+[0.046s] Invoking command in '/home/seema/ros2_ws/src/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/src/install/examples_rclcpp_minimal_subscriber
+[1.719s] -- The C compiler identification is GNU 11.4.0
+[1.720s] -- The CXX compiler identification is GNU 11.4.0
+[1.720s] -- Detecting C compiler ABI info
+[1.720s] -- Detecting C compiler ABI info - done
+[1.720s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.720s] -- Detecting C compile features
+[1.720s] -- Detecting C compile features - done
+[1.720s] -- Detecting CXX compiler ABI info
+[1.720s] -- Detecting CXX compiler ABI info - done
+[1.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.720s] -- Detecting CXX compile features
+[1.720s] -- Detecting CXX compile features - done
+[1.720s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.720s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.720s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.720s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.720s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.720s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.720s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.720s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.720s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.720s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.720s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.720s] -- Looking for pthread.h
+[1.721s] -- Looking for pthread.h - found
+[1.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.721s] -- Found Threads: TRUE  
+[1.721s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.721s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.764s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.764s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.765s] -- Configured cppcheck include dirs: 
+[1.765s] -- Configured cppcheck exclude dirs and/or files: 
+[1.765s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.766s] -- Configured cpplint exclude dirs and/or files: 
+[1.766s] -- Added test 'lint_cmake' to check CMake code style
+[1.771s] -- Added test 'uncrustify' to check C / C++ code style
+[1.771s] -- Configured uncrustify additional arguments: 
+[1.771s] -- Added test 'xmllint' to check XML markup files
+[1.772s] -- Configuring done
+[1.837s] -- Generating done
+[1.849s] -- Build files have been written to: /home/seema/ros2_ws/src/build/examples_rclcpp_minimal_subscriber
+[1.876s] Invoked command in '/home/seema/ros2_ws/src/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/src/install/examples_rclcpp_minimal_subscriber
+[1.878s] Invoking command in '/home/seema/ros2_ws/src/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/src/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[2.011s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[2.021s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[2.021s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[2.023s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[2.036s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[2.046s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[2.062s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[2.064s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[2.101s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[2.109s] [ 41%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[2.120s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[2.120s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[2.126s] [ 54%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m

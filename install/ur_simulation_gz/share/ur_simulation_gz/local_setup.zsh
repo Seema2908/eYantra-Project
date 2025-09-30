@@ -1,0 +1,1 @@
+/home/seema/ros2_ws/build/ur_simulation_gz/ament_cmake_environment_hooks/local_setup.zsh

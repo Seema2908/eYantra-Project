@@ -1,0 +1,31 @@
+[0.320s] Invoking command in '/home/seema/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/build
+[0.462s] running develop
+[0.541s] Removing /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[0.556s] Invoked command in '/home/seema/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/build
+[0.558s] Invoking command in '/home/seema/ros2_ws/src/examples/rclpy/guard_conditions': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data --force
+[0.678s] running egg_info
+[0.678s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[0.678s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[0.678s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[0.678s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[0.678s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[0.680s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[0.681s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[0.681s] running build
+[0.681s] running build_py
+[0.681s] running install
+[0.681s] running install_lib
+[0.682s] creating /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[0.682s] copying /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[0.682s] copying /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[0.682s] byte-compiling /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[0.682s] byte-compiling /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[0.682s] running install_data
+[0.683s] copying resource/examples_rclpy_guard_conditions -> /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[0.683s] copying package.xml -> /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[0.683s] running install_egg_info
+[0.684s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.4-py3.10.egg-info
+[0.684s] running install_scripts
+[0.696s] Installing trigger_guard_condition script to /home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[0.696s] writing list of installed files to '/home/seema/ros2_ws/build/examples_rclpy_guard_conditions/install.log'
+[0.709s] Invoked command in '/home/seema/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/seema/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data --force

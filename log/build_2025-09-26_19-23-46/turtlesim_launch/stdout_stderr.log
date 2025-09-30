@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtlesim_launch.egg-info/PKG-INFO
+writing dependency_links to turtlesim_launch.egg-info/dependency_links.txt
+writing entry points to turtlesim_launch.egg-info/entry_points.txt
+writing requirements to turtlesim_launch.egg-info/requires.txt
+writing top-level names to turtlesim_launch.egg-info/top_level.txt
+reading manifest file 'turtlesim_launch.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/seema/ros2_ws/install/turtlesim_launch/lib/python3.10/site-packages/turtlesim-launch.egg-link (link to .)
+
+Installed /home/seema/ros2_ws/build/turtlesim_launch
+running symlink_data
+symbolically linking /home/seema/ros2_ws/build/turtlesim_launch/resource/turtlesim_launch -> /home/seema/ros2_ws/install/turtlesim_launch/share/ament_index/resource_index/packages
+symbolically linking /home/seema/ros2_ws/build/turtlesim_launch/package.xml -> /home/seema/ros2_ws/install/turtlesim_launch/share/turtlesim_launch

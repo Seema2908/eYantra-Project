@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pymoveit2__py",
+		"source" : "/home/seema/ros2_ws/build/pymoveit2/pymoveit2__py"
+	}
+}

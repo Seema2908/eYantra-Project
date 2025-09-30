@@ -1,0 +1,1 @@
+Invoking command in '/home/seema/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j16 -l16

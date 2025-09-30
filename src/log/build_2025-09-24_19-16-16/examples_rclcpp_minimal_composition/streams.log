@@ -1,0 +1,51 @@
+[0.047s] Invoking command in '/home/seema/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[1.720s] -- The C compiler identification is GNU 11.4.0
+[1.720s] -- The CXX compiler identification is GNU 11.4.0
+[1.721s] -- Detecting C compiler ABI info
+[1.721s] -- Detecting C compiler ABI info - done
+[1.721s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.721s] -- Detecting C compile features
+[1.721s] -- Detecting C compile features - done
+[1.721s] -- Detecting CXX compiler ABI info
+[1.721s] -- Detecting CXX compiler ABI info - done
+[1.721s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.721s] -- Detecting CXX compile features
+[1.721s] -- Detecting CXX compile features - done
+[1.721s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.721s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.722s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.722s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.722s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.722s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.722s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.722s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.722s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.722s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.722s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.722s] -- Looking for pthread.h
+[1.723s] -- Looking for pthread.h - found
+[1.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.723s] -- Found Threads: TRUE  
+[1.723s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.740s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.327s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.348s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.353s] -- Configured cppcheck include dirs: /home/seema/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[2.353s] -- Configured cppcheck exclude dirs and/or files: 
+[2.359s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.359s] -- Configured cpplint exclude dirs and/or files: 
+[2.368s] -- Added test 'lint_cmake' to check CMake code style
+[2.376s] -- Added test 'uncrustify' to check C / C++ code style
+[2.376s] -- Configured uncrustify additional arguments: 
+[2.387s] -- Added test 'xmllint' to check XML markup files
+[2.407s] -- Configuring done
+[2.626s] -- Generating done
+[2.722s] -- Build files have been written to: /home/seema/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[2.837s] Invoked command in '/home/seema/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[2.838s] Invoking command in '/home/seema/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[5.554s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[5.559s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m

@@ -1,0 +1,19 @@
+[2.431s] Invoking command in '/home/seema/ros2_ws/build/ebot_controller': PYTHONPATH=/home/seema/ros2_ws/build/ebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seema/ros2_ws/build/ebot_controller/build --no-deps symlink_data --force
+[2.634s] running develop
+[2.774s] running egg_info
+[2.774s] writing ebot_controller.egg-info/PKG-INFO
+[2.775s] writing dependency_links to ebot_controller.egg-info/dependency_links.txt
+[2.775s] writing entry points to ebot_controller.egg-info/entry_points.txt
+[2.775s] writing requirements to ebot_controller.egg-info/requires.txt
+[2.775s] writing top-level names to ebot_controller.egg-info/top_level.txt
+[2.778s] reading manifest file 'ebot_controller.egg-info/SOURCES.txt'
+[2.780s] writing manifest file 'ebot_controller.egg-info/SOURCES.txt'
+[2.878s] running build_ext
+[2.879s] Creating /home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages/ebot-controller.egg-link (link to .)
+[2.880s] Installing ebot_nav script to /home/seema/ros2_ws/install/ebot_controller/lib/ebot_controller
+[2.880s] 
+[2.880s] Installed /home/seema/ros2_ws/build/ebot_controller
+[2.881s] running symlink_data
+[2.881s] symbolically linking /home/seema/ros2_ws/build/ebot_controller/resource/ebot_controller -> /home/seema/ros2_ws/install/ebot_controller/share/ament_index/resource_index/packages
+[2.881s] symbolically linking /home/seema/ros2_ws/build/ebot_controller/package.xml -> /home/seema/ros2_ws/install/ebot_controller/share/ebot_controller
+[3.895s] Invoked command in '/home/seema/ros2_ws/build/ebot_controller' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/ebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seema/ros2_ws/build/ebot_controller/build --no-deps symlink_data --force

@@ -1,0 +1,3 @@
+[console_scripts]
+ebot_nav = ebot_controller.ebot_nav:main
+

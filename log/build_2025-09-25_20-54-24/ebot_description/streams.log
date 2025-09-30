@@ -1,0 +1,104 @@
+[0.050s] Invoking command in '/home/seema/ros2_ws/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ebot_description -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/ebot_description
+[0.584s] -- The C compiler identification is GNU 11.4.0
+[0.584s] -- The CXX compiler identification is GNU 11.4.0
+[0.584s] -- Detecting C compiler ABI info
+[0.584s] -- Detecting C compiler ABI info - done
+[0.584s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.584s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.584s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.584s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.584s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.674s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.775s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.843s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.849s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.861s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.954s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.959s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.051s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.080s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.140s] -- Looking for pthread.h
+[1.209s] -- Looking for pthread.h - found
+[1.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.270s] -- Found Threads: TRUE  
+[1.325s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.328s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.367s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[1.369s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.435s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.436s] -- Added test 'lint_cmake' to check CMake code style
+[1.436s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.438s] -- Added test 'xmllint' to check XML markup files
+[1.439s] -- Configuring done
+[1.442s] -- Generating done
+[1.443s] -- Build files have been written to: /home/seema/ros2_ws/build/ebot_description
+[2.526s] Invoked command in '/home/seema/ros2_ws/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ebot_description -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/ebot_description
+[2.528s] Invoking command in '/home/seema/ros2_ws/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/ebot_description -- -j16 -l16
+[2.576s] Invoked command in '/home/seema/ros2_ws/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/ebot_description -- -j16 -l16
+[2.577s] Invoking command in '/home/seema/ros2_ws/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/ebot_description
+[2.594s] -- Install configuration: ""
+[2.597s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//launch
+[2.597s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//launch/spawn_ebot.launch.py
+[2.597s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//worlds
+[2.597s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//worlds/empty.world
+[2.597s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//models
+[2.597s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//models/ebot
+[2.598s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//models/ebot/ebot.gazebo
+[2.598s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//models/ebot/ebot_description.xacro
+[2.606s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes
+[2.606s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/chassis_modified.dae
+[2.618s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS3.STL
+[2.618s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RHUS9.STL
+[2.618s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RWL.STL
+[2.626s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FWL.STL
+[2.627s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/robot_base.stl
+[2.628s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/chassis.dae
+[2.652s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/LHUS10.STL
+[2.653s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS2.STL
+[2.653s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/LHUS9.STL
+[2.653s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RUS6.STL
+[2.653s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS1.STL
+[2.653s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RWR.STL
+[2.654s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RHUS7.STL
+[2.654s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FUS4.STL
+[2.654s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/RUS5.STL
+[2.654s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/FWR.STL
+[2.655s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//meshes/aruco_tag.jpg.001.jpg
+[2.655s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//plugins
+[2.656s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//plugins/libgazebo_collision_sensor.so
+[2.658s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//plugins/libgazebo_ros_vacuum_gripper.so
+[2.661s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//config
+[2.661s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//config/bridge.yaml
+[2.661s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description//config/controller.yaml
+[2.661s] -- Installing: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000
+[2.662s] -- Installing: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/pyarmor_runtime.so
+[2.663s] -- Installing: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/__init__.py
+[2.663s] -- Up-to-date: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000
+[2.663s] -- Up-to-date: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/pyarmor_runtime.so
+[2.663s] -- Up-to-date: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/pyarmor_runtime_000000/__init__.py
+[2.663s] -- Installing: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/payload.py
+[2.663s] -- Installing: /home/seema/ros2_ws/install/ebot_description/lib/ebot_description/spawner.py
+[2.663s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ament_index/resource_index/package_run_dependencies/ebot_description
+[2.663s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ament_index/resource_index/parent_prefix_path/ebot_description
+[2.664s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/ament_prefix_path.sh
+[2.664s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/ament_prefix_path.dsv
+[2.664s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/path.sh
+[2.664s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/environment/path.dsv
+[2.664s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.bash
+[2.664s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.sh
+[2.665s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.zsh
+[2.665s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/local_setup.dsv
+[2.665s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/package.dsv
+[2.665s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ament_index/resource_index/packages/ebot_description
+[2.665s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig.cmake
+[2.665s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig-version.cmake
+[2.665s] -- Installing: /home/seema/ros2_ws/install/ebot_description/share/ebot_description/package.xml
+[2.669s] Invoked command in '/home/seema/ros2_ws/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/ebot_description

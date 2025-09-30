@@ -1,0 +1,4 @@
+Invoking command in '/home/seema/ros2_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/eyantra_warehouse -- -j16 -l16
+Invoked command in '/home/seema/ros2_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/eyantra_warehouse -- -j16 -l16
+Invoking command in '/home/seema/ros2_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/eyantra_warehouse
+Invoked command in '/home/seema/ros2_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/eyantra_warehouse

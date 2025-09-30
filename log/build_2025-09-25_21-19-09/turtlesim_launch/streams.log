@@ -1,0 +1,20 @@
+[2.449s] Invoking command in '/home/seema/ros2_ws/src/turtlesim_launch': PYTHONPATH=/home/seema/ros2_ws/build/turtlesim_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/turtlesim_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_launch build --build-base /home/seema/ros2_ws/build/turtlesim_launch/build install --record /home/seema/ros2_ws/build/turtlesim_launch/install.log --single-version-externally-managed install_data
+[2.684s] running egg_info
+[2.684s] writing ../../build/turtlesim_launch/turtlesim_launch.egg-info/PKG-INFO
+[2.685s] writing dependency_links to ../../build/turtlesim_launch/turtlesim_launch.egg-info/dependency_links.txt
+[2.685s] writing entry points to ../../build/turtlesim_launch/turtlesim_launch.egg-info/entry_points.txt
+[2.685s] writing requirements to ../../build/turtlesim_launch/turtlesim_launch.egg-info/requires.txt
+[2.685s] writing top-level names to ../../build/turtlesim_launch/turtlesim_launch.egg-info/top_level.txt
+[2.686s] reading manifest file '../../build/turtlesim_launch/turtlesim_launch.egg-info/SOURCES.txt'
+[2.687s] writing manifest file '../../build/turtlesim_launch/turtlesim_launch.egg-info/SOURCES.txt'
+[2.687s] running build
+[2.687s] running build_py
+[2.687s] running install
+[2.688s] running install_lib
+[2.689s] running install_data
+[2.689s] running install_egg_info
+[2.690s] removing '/home/seema/ros2_ws/install/turtlesim_launch/lib/python3.10/site-packages/turtlesim_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[2.691s] Copying ../../build/turtlesim_launch/turtlesim_launch.egg-info to /home/seema/ros2_ws/install/turtlesim_launch/lib/python3.10/site-packages/turtlesim_launch-0.0.0-py3.10.egg-info
+[2.691s] running install_scripts
+[2.713s] writing list of installed files to '/home/seema/ros2_ws/build/turtlesim_launch/install.log'
+[2.735s] Invoked command in '/home/seema/ros2_ws/src/turtlesim_launch' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/turtlesim_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/turtlesim_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_launch build --build-base /home/seema/ros2_ws/build/turtlesim_launch/build install --record /home/seema/ros2_ws/build/turtlesim_launch/install.log --single-version-externally-managed install_data

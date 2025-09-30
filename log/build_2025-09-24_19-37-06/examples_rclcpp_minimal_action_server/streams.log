@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.015s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.092s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.096s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.109s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.110s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.114s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.152s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.167s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.168s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.258s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.264s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.307s] -- Configured cppcheck include dirs: 
+[0.308s] -- Configured cppcheck exclude dirs and/or files: 
+[0.308s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.308s] -- Configured cpplint exclude dirs and/or files: 
+[0.308s] -- Added test 'lint_cmake' to check CMake code style
+[0.308s] -- Added test 'uncrustify' to check C / C++ code style
+[0.308s] -- Configured uncrustify additional arguments: 
+[0.308s] -- Added test 'xmllint' to check XML markup files
+[0.309s] -- Configuring done
+[0.317s] -- Generating done
+[0.320s] -- Build files have been written to: /home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server
+[0.325s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.327s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j16 -l16
+[0.366s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[0.369s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[2.434s] [ 75%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[2.465s] [100%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[2.536s] [100%] Built target action_server_not_composable
+[2.569s] [100%] Built target action_server_member_functions
+[2.579s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j16 -l16
+[2.580s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server
+[2.584s] -- Install configuration: ""
+[2.584s] -- Execute custom install script
+[2.585s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[2.590s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[2.595s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[2.603s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[2.610s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[2.617s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[2.622s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[2.628s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[2.636s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[2.642s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[2.649s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[2.654s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[2.659s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[2.664s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[2.669s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[2.675s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[2.681s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[2.689s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_minimal_action_server

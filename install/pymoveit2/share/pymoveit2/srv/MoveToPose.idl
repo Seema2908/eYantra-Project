@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from pymoveit2/srv/MoveToPose.srv
+// generated code does not contain a copyright notice
+
+
+module pymoveit2 {
+  module srv {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MoveToPose_Request {
+      string mode;
+
+      double x;
+
+      double y;
+
+      double z;
+
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveToPose_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,47 @@
+[0.025s] Invoking command in '/home/seema/ros2_ws/build/ur5_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ur5_control -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/ur5_control
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.203s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.453s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.466s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.472s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.903s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.068s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.073s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.212s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.213s] -- Added test 'lint_cmake' to check CMake code style
+[1.214s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.216s] -- Added test 'xmllint' to check XML markup files
+[1.218s] -- Configuring done
+[1.221s] -- Generating done
+[1.223s] -- Build files have been written to: /home/seema/ros2_ws/build/ur5_control
+[1.228s] Invoked command in '/home/seema/ros2_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/ur5_control -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/ur5_control
+[1.230s] Invoking command in '/home/seema/ros2_ws/build/ur5_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/ur5_control -- -j16 -l16
+[1.280s] Invoked command in '/home/seema/ros2_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/ur5_control -- -j16 -l16
+[1.282s] Invoking command in '/home/seema/ros2_ws/build/ur5_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/ur5_control
+[1.290s] -- Install configuration: ""
+[1.291s] -- Installing: /home/seema/ros2_ws/install/ur5_control/lib/ur5_control/task1b_boiler_plate.py
+[1.291s] -- Installing: /home/seema/ros2_ws/install/ur5_control/lib/ur5_control/bonus_task2_boiler_plate.py
+[1.291s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ament_index/resource_index/package_run_dependencies/ur5_control
+[1.292s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ament_index/resource_index/parent_prefix_path/ur5_control
+[1.292s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/ament_prefix_path.sh
+[1.292s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/ament_prefix_path.dsv
+[1.292s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/path.sh
+[1.292s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/path.dsv
+[1.292s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.bash
+[1.293s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.sh
+[1.293s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.zsh
+[1.293s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.dsv
+[1.293s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/package.dsv
+[1.293s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ament_index/resource_index/packages/ur5_control
+[1.294s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/cmake/ur5_controlConfig.cmake
+[1.294s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/cmake/ur5_controlConfig-version.cmake
+[1.294s] -- Installing: /home/seema/ros2_ws/install/ur5_control/share/ur5_control/package.xml
+[1.296s] Invoked command in '/home/seema/ros2_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seema/ros2_ws/install/turtlesim_launch:/home/seema/ros2_ws/install/my_py_pkg:/home/seema/ros2_ws/install/launch_testing_examples:/home/seema/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/seema/ros2_ws/install/examples_rclpy_minimal_service:/home/seema/ros2_ws/install/examples_rclpy_minimal_publisher:/home/seema/ros2_ws/install/examples_rclpy_minimal_client:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_server:/home/seema/ros2_ws/install/examples_rclpy_minimal_action_client:/home/seema/ros2_ws/install/examples_rclpy_guard_conditions:/home/seema/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/ur5_control

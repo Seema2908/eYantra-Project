@@ -1,0 +1,17 @@
+/home/seema/ros2_ws/install/ur5_control/lib/ur5_control/task1b_boiler_plate.py
+/home/seema/ros2_ws/install/ur5_control/lib/ur5_control/bonus_task2_boiler_plate.py
+/home/seema/ros2_ws/install/ur5_control/share/ament_index/resource_index/package_run_dependencies/ur5_control
+/home/seema/ros2_ws/install/ur5_control/share/ament_index/resource_index/parent_prefix_path/ur5_control
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/ament_prefix_path.sh
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/ament_prefix_path.dsv
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/path.sh
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/environment/path.dsv
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.bash
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.sh
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.zsh
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/local_setup.dsv
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/package.dsv
+/home/seema/ros2_ws/install/ur5_control/share/ament_index/resource_index/packages/ur5_control
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/cmake/ur5_controlConfig.cmake
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/cmake/ur5_controlConfig-version.cmake
+/home/seema/ros2_ws/install/ur5_control/share/ur5_control/package.xml

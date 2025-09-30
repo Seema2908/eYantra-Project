@@ -1,0 +1,87 @@
+[0.268s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/examples_rclcpp_wait_set
+[1.265s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.265s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.265s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.265s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.265s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.265s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.266s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.266s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.266s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.266s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.266s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.266s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.396s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.401s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.403s] -- Configured cppcheck include dirs: /home/seema/ros2_ws/src/examples/rclcpp/wait_set/include
+[1.404s] -- Configured cppcheck exclude dirs and/or files: 
+[1.407s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.408s] -- Configured cpplint exclude dirs and/or files: 
+[1.408s] -- Added test 'lint_cmake' to check CMake code style
+[1.408s] -- Added test 'uncrustify' to check C / C++ code style
+[1.408s] -- Configured uncrustify additional arguments: 
+[1.408s] -- Added test 'xmllint' to check XML markup files
+[1.411s] -- Configuring done
+[1.544s] -- Generating done
+[1.591s] -- Build files have been written to: /home/seema/ros2_ws/build/examples_rclcpp_wait_set
+[1.889s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/examples_rclcpp_wait_set
+[1.892s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[1.932s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.932s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set[0m
+[1.933s] [35m[1mConsolidate compiler generated dependencies of target thread_safe_wait_set[0m
+[1.933s] [35m[1mConsolidate compiler generated dependencies of target wait_set_random_order[0m
+[1.933s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.933s] [35m[1mConsolidate compiler generated dependencies of target wait_set_listener[0m
+[1.933s] [35m[1mConsolidate compiler generated dependencies of target executor_random_order[0m
+[1.935s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_with_different_rates[0m
+[1.935s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_and_timer[0m
+[1.936s] [35m[1mConsolidate compiler generated dependencies of target wait_set_talker[0m
+[1.938s] [35m[1mConsolidate compiler generated dependencies of target wait_set[0m
+[1.951s] [  8%] Built target talker
+[1.951s] [ 16%] Built target static_wait_set
+[1.951s] [ 25%] Built target thread_safe_wait_set
+[1.952s] [ 33%] Built target wait_set_listener
+[1.953s] [ 41%] Built target wait_set_random_order
+[1.955s] [ 50%] Built target executor_random_order
+[1.955s] [ 58%] Built target wait_set_topics_and_timer
+[1.956s] [ 66%] Built target wait_set_topics_with_different_rates
+[1.956s] [ 75%] Built target listener
+[1.957s] [ 83%] Built target wait_set_talker
+[1.961s] [ 91%] Built target wait_set
+[1.970s] [35m[1mConsolidate compiler generated dependencies of target wait_set_composed[0m
+[1.988s] [100%] Built target wait_set_composed
+[2.437s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[2.438s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_wait_set
+[2.647s] -- Install configuration: ""
+[2.647s] -- Execute custom install script
+[2.648s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[2.648s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[2.648s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[2.648s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[2.648s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[2.649s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[2.649s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[2.649s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[2.650s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[2.651s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[2.651s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[3.461s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_wait_set

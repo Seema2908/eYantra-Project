@@ -1,0 +1,20 @@
+[4.846s] Invoking command in '/home/seema/ros2_ws/src/tf_transformations': PYTHONPATH=/home/seema/ros2_ws/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/seema/ros2_ws/build/tf_transformations/build install --record /home/seema/ros2_ws/build/tf_transformations/install.log --single-version-externally-managed install_data
+[5.724s] running egg_info
+[5.725s] writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+[5.726s] writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+[5.727s] writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+[5.727s] writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+[5.728s] reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[5.729s] adding license file 'LICENSE'
+[5.729s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[5.730s] running build
+[5.731s] running build_py
+[5.731s] running install
+[5.732s] running install_lib
+[5.732s] running install_data
+[5.732s] running install_egg_info
+[5.733s] removing '/home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations-1.1.0-py3.10.egg-info' (and everything under it)
+[5.733s] Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations-1.1.0-py3.10.egg-info
+[5.734s] running install_scripts
+[5.760s] writing list of installed files to '/home/seema/ros2_ws/build/tf_transformations/install.log'
+[5.794s] Invoked command in '/home/seema/ros2_ws/src/tf_transformations' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/seema/ros2_ws/build/tf_transformations/build install --record /home/seema/ros2_ws/build/tf_transformations/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+[0.047s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[0.755s] [35m[1mConsolidate compiler generated dependencies of target composition_nodes[0m
+[0.755s] [ 33%] Built target composition_nodes
+[0.755s] [35m[1mConsolidate compiler generated dependencies of target composition_subscriber[0m
+[0.755s] [35m[1mConsolidate compiler generated dependencies of target composition_composed[0m
+[0.755s] [35m[1mConsolidate compiler generated dependencies of target composition_publisher[0m
+[0.755s] [ 55%] Built target composition_subscriber
+[0.756s] [ 77%] Built target composition_composed
+[0.756s] [100%] Built target composition_publisher
+[0.795s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[0.799s] Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_minimal_composition
+[0.828s] -- Install configuration: ""
+[0.828s] -- Execute custom install script
+[0.828s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[0.828s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[0.828s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[0.828s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[0.828s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[0.829s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[0.829s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[0.829s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[0.829s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[0.829s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[0.830s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[0.830s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[0.830s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[0.830s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[0.830s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[0.830s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[0.830s] -- Symlinking: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[0.832s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[0.832s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[0.832s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[0.832s] -- Up-to-date symlink: /home/seema/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[1.011s] Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seema/ros2_ws/build/examples_rclcpp_minimal_composition

@@ -1,0 +1,26 @@
+[2.490s] Invoking command in '/home/seema/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/seema/ros2_ws/build/examples_rclpy_executors/build install --record /home/seema/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[3.504s] running egg_info
+[3.507s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[3.507s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[3.507s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[3.508s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[3.508s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[3.514s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.516s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.517s] running build
+[3.517s] running build_py
+[3.518s] running install
+[3.520s] running install_lib
+[3.524s] running install_data
+[3.524s] running install_egg_info
+[3.531s] removing '/home/seema/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.4-py3.10.egg-info' (and everything under it)
+[3.532s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.4-py3.10.egg-info
+[3.534s] running install_scripts
+[3.586s] Installing callback_group script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.587s] Installing composed script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.587s] Installing custom_callback_group script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.587s] Installing custom_executor script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.587s] Installing listener script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.588s] Installing talker script to /home/seema/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.589s] writing list of installed files to '/home/seema/ros2_ws/build/examples_rclpy_executors/install.log'
+[3.642s] Invoked command in '/home/seema/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/seema/ros2_ws/build/examples_rclpy_executors/build install --record /home/seema/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+[2.751s] Invoking command in '/home/seema/ros2_ws/src/tf_transformations': PYTHONPATH=/home/seema/ros2_ws/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/seema/ros2_ws/build/tf_transformations/build install --record /home/seema/ros2_ws/build/tf_transformations/install.log --single-version-externally-managed install_data
+[3.072s] running egg_info
+[3.073s] creating ../../build/tf_transformations/tf_transformations.egg-info
+[3.073s] writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+[3.073s] writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+[3.073s] writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+[3.073s] writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+[3.074s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[3.075s] reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[3.075s] adding license file 'LICENSE'
+[3.075s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[3.076s] running build
+[3.076s] running build_py
+[3.076s] creating /home/seema/ros2_ws/build/tf_transformations/build
+[3.076s] creating /home/seema/ros2_ws/build/tf_transformations/build/lib
+[3.076s] creating /home/seema/ros2_ws/build/tf_transformations/build/lib/tf_transformations
+[3.076s] copying tf_transformations/__init__.py -> /home/seema/ros2_ws/build/tf_transformations/build/lib/tf_transformations
+[3.076s] running install
+[3.077s] running install_lib
+[3.078s] creating /home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations
+[3.078s] copying /home/seema/ros2_ws/build/tf_transformations/build/lib/tf_transformations/__init__.py -> /home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations
+[3.078s] byte-compiling /home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations/__init__.py to __init__.cpython-310.pyc
+[3.085s] running install_data
+[3.085s] creating /home/seema/ros2_ws/install/tf_transformations/share/ament_index
+[3.085s] creating /home/seema/ros2_ws/install/tf_transformations/share/ament_index/resource_index
+[3.085s] creating /home/seema/ros2_ws/install/tf_transformations/share/ament_index/resource_index/packages
+[3.085s] copying resource/tf_transformations -> /home/seema/ros2_ws/install/tf_transformations/share/ament_index/resource_index/packages
+[3.085s] copying package.xml -> /home/seema/ros2_ws/install/tf_transformations/share/tf_transformations
+[3.085s] running install_egg_info
+[3.087s] Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations-1.1.0-py3.10.egg-info
+[3.088s] running install_scripts
+[3.110s] writing list of installed files to '/home/seema/ros2_ws/build/tf_transformations/install.log'
+[3.135s] Invoked command in '/home/seema/ros2_ws/src/tf_transformations' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/tf_transformations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/seema/ros2_ws/build/tf_transformations/build install --record /home/seema/ros2_ws/build/tf_transformations/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+[1.821s] Invoking command in '/home/seema/ros2_ws/build/turtlesim_launch': PYTHONPATH=/home/seema/ros2_ws/build/turtlesim_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/turtlesim_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seema/ros2_ws/build/turtlesim_launch/build --no-deps symlink_data --force
+[2.074s] running develop
+[2.196s] running egg_info
+[2.196s] writing turtlesim_launch.egg-info/PKG-INFO
+[2.198s] writing dependency_links to turtlesim_launch.egg-info/dependency_links.txt
+[2.198s] writing entry points to turtlesim_launch.egg-info/entry_points.txt
+[2.198s] writing requirements to turtlesim_launch.egg-info/requires.txt
+[2.198s] writing top-level names to turtlesim_launch.egg-info/top_level.txt
+[2.200s] reading manifest file 'turtlesim_launch.egg-info/SOURCES.txt'
+[2.201s] writing manifest file 'turtlesim_launch.egg-info/SOURCES.txt'
+[2.244s] running build_ext
+[2.244s] Creating /home/seema/ros2_ws/install/turtlesim_launch/lib/python3.10/site-packages/turtlesim-launch.egg-link (link to .)
+[2.245s] 
+[2.245s] Installed /home/seema/ros2_ws/build/turtlesim_launch
+[2.245s] running symlink_data
+[2.245s] symbolically linking /home/seema/ros2_ws/build/turtlesim_launch/resource/turtlesim_launch -> /home/seema/ros2_ws/install/turtlesim_launch/share/ament_index/resource_index/packages
+[2.245s] symbolically linking /home/seema/ros2_ws/build/turtlesim_launch/package.xml -> /home/seema/ros2_ws/install/turtlesim_launch/share/turtlesim_launch

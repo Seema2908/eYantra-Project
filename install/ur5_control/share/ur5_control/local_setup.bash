@@ -1,0 +1,1 @@
+/home/seema/ros2_ws/build/ur5_control/ament_cmake_environment_hooks/local_setup.bash

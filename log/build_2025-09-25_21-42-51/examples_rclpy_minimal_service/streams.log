@@ -1,0 +1,22 @@
+[3.334s] Invoking command in '/home/seema/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/seema/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/seema/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data
+[3.775s] running egg_info
+[3.778s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[3.778s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[3.779s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[3.779s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[3.779s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[3.780s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.781s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.781s] running build
+[3.781s] running build_py
+[3.781s] running install
+[3.782s] running install_lib
+[3.783s] running install_data
+[3.783s] running install_egg_info
+[3.785s] removing '/home/seema/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.4-py3.10.egg-info' (and everything under it)
+[3.785s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/seema/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.4-py3.10.egg-info
+[3.785s] running install_scripts
+[3.807s] Installing service script to /home/seema/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.808s] Installing service_member_function script to /home/seema/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.808s] writing list of installed files to '/home/seema/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[3.843s] Invoked command in '/home/seema/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/seema/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/seema/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data

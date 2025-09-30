@@ -1,0 +1,22 @@
+running egg_info
+writing ../../../build/ebot_controller/ebot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ebot_controller/ebot_controller.egg-info/dependency_links.txt
+writing entry points to ../../../build/ebot_controller/ebot_controller.egg-info/entry_points.txt
+writing requirements to ../../../build/ebot_controller/ebot_controller.egg-info/requires.txt
+writing top-level names to ../../../build/ebot_controller/ebot_controller.egg-info/top_level.txt
+reading manifest file '../../../build/ebot_controller/ebot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ebot_controller/ebot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ebot_controller/ebot_nav.py -> /home/seema/ros2_ws/build/ebot_controller/build/lib/ebot_controller
+running install
+running install_lib
+copying /home/seema/ros2_ws/build/ebot_controller/build/lib/ebot_controller/ebot_nav.py -> /home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages/ebot_controller
+byte-compiling /home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages/ebot_controller/ebot_nav.py to ebot_nav.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages/ebot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/ebot_controller/ebot_controller.egg-info to /home/seema/ros2_ws/install/ebot_controller/lib/python3.10/site-packages/ebot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ebot_nav script to /home/seema/ros2_ws/install/ebot_controller/lib/ebot_controller
+writing list of installed files to '/home/seema/ros2_ws/build/ebot_controller/install.log'

@@ -1,0 +1,6 @@
+{
+  "package_name": "pymoveit2",
+  "non_idl_tuples": [
+    "/home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/pymoveit2:srv/MoveToPose.srv"
+  ]
+}

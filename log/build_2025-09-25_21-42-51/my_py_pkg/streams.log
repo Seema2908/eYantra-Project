@@ -1,0 +1,21 @@
+[3.343s] Invoking command in '/home/seema/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/seema/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/seema/ros2_ws/build/my_py_pkg/build install --record /home/seema/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[3.770s] running egg_info
+[3.771s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.771s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.771s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.771s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.771s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.773s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.774s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.774s] running build
+[3.774s] running build_py
+[3.774s] running install
+[3.774s] running install_lib
+[3.775s] running install_data
+[3.776s] running install_egg_info
+[3.778s] removing '/home/seema/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.778s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/seema/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.778s] running install_scripts
+[3.801s] Installing ebot_nav script to /home/seema/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.801s] writing list of installed files to '/home/seema/ros2_ws/build/my_py_pkg/install.log'
+[3.850s] Invoked command in '/home/seema/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/seema/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seema/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/seema/ros2_ws/build/my_py_pkg/build install --record /home/seema/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

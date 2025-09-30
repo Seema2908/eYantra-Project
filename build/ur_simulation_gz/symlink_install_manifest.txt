@@ -1,0 +1,17 @@
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/config/ur_controllers.yaml
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/launch/spawn_arm.launch.py
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gz
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gz
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.sh
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.dsv
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.sh
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.dsv
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.bash
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.sh
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.zsh
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.dsv
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ament_index/resource_index/packages/ur_simulation_gz
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig.cmake
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig-version.cmake
+/home/seema/ros2_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.xml

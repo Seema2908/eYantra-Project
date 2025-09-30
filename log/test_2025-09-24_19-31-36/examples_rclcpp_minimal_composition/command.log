@@ -1,0 +1,2 @@
+Invoking command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_composition': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/seema/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

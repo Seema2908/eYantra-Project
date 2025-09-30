@@ -1,0 +1,40 @@
+[0.437s] Invoking command in '/home/seema/ros2_ws/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/pymoveit2
+[0.770s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.771s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.771s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.771s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.771s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.771s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.774s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.776s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.906s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.956s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.992s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.009s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.013s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.014s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.018s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.042s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.400s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.963s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.183s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.214s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.215s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.215s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.262s] -- Configuring done
+[2.321s] -- Generating done
+[2.334s] -- Build files have been written to: /home/seema/ros2_ws/build/pymoveit2
+[2.349s] Invoked command in '/home/seema/ros2_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/seema/ros2_ws/src/eyrc-25-26-krishi-cobot/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seema/ros2_ws/install/pymoveit2
+[2.350s] Invoking command in '/home/seema/ros2_ws/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/pymoveit2 -- -j16 -l16
+[2.395s] [35m[1mConsolidate compiler generated dependencies of target pymoveit2__rosidl_generator_c[0m
+[2.399s] failed to create symbolic link '/home/seema/ros2_ws/build/pymoveit2/ament_cmake_python/pymoveit2/pymoveit2' because existing path cannot be removed: Is a directory
+[2.400s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_pymoveit2.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_pymoveit2] Error 1
+[2.400s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_pymoveit2.dir/all] Error 2
+[2.400s] gmake[1]: *** Waiting for unfinished jobs....
+[2.401s] [  3%] Built target pymoveit2__cpp
+[2.406s] [ 12%] Built target pymoveit2__rosidl_generator_c
+[2.407s] gmake: *** [Makefile:146: all] Error 2
+[2.410s] Invoked command in '/home/seema/ros2_ws/build/pymoveit2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seema/ros2_ws/build/pymoveit2 -- -j16 -l16
